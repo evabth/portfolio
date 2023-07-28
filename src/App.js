@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import menu from './menu.png';
+import email from './email.png';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='Page'>
+      <div className='Header'>
+        <div className='Header-item'>
+          <button className='Menu'><img className = 'Picture' src ={menu} alt = 'cannot be found' onClick={optionsMenu}/></button>
+        </div>
+        <div className='Header-item Title'>
+          Evan Hild
+        </div>
+        <div className='Header-item'>
+          <button className='Button'><img className='Picture' src ={email} alt= 'email' /></button>
+        </div>
+        
+        
+      </div>
     </div>
+    
   );
+}
+
+let counter= 0;
+
+const optionsMenu = function (){
+  console.log(`hello ${counter++}`)
 }
 
 export default App;
