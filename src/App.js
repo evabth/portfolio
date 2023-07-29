@@ -10,13 +10,24 @@ function App() {
     <div className='Page'>
       <div className='Header'>
         <div className='Header-item'>
-          <button className='Menu'><img className = 'Picture' src ={menu} alt = 'cannot be found' onClick={optionsMenu} onMouseOver={(event) => menuOn(event.target)} onMouseOut={(event) => menuOff(event.target)}/></button>
+          <button className='Menu'>
+            <img className = 'Picture' src ={menu} alt = 'cannot be found' onClick={optionsMenu} onMouseOver={(event) => menuOn(event.target)} onMouseOut={(event) => menuOff(event.target) }/>
+            <div className='dropdown-content' id = 'dropdown'>
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#Projects">Projects</a>
+              <a href="#music">Music</a>
+            </div>
+          </button>
         </div>
         <div className='Header-item Title'>
           Evan Hild
         </div>
         <div className='Header-item'>
-          <button className='Button'><img className='Picture' src ={email} alt= 'email' onMouseOver={(event) => emailOn(event.target)} onMouseOut={(event) => emailOff(event.target)}/></button>
+          <button className='email'>
+            <img className='Picture' src ={email} alt= 'email' onMouseOver={(event) => emailOn(event.target)} onMouseOut={(event) => emailOff(event.target)}/>
+            
+          </button>
         </div>
         
         
@@ -26,10 +37,13 @@ function App() {
   );
 }
 
-let counter= 0;
+
 
 const optionsMenu = function (){
-  console.log(`hello ${counter++}`)
+  let dropdown = document.getElementById('dropdown')
+
+  dropdown.classList.toggle('show')
+
 }
 
 const menuOn = function (image){
