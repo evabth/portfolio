@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Projects from './Pages/Projects';
+import Music from './Pages/Music';
+import About from './Pages/About'
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -21,11 +23,11 @@ const router = createBrowserRouter([
   },
   {
     path : '/Music',
-    element: <div>hello</div>
+    element: <Music/>
   },
   {
     path : '/About',
-    element: <div>about</div>
+    element: <About/>
   },
   
 

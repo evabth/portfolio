@@ -1,6 +1,32 @@
 
 
 .Page{
-  height: 100vh;
+  display:block;
+  min-height: 100vh;
 }
 
+.Content{
+  width: 90%;
+  margin:auto;
+
+
+  color:#D4ADFC;
+  display: flex;
+  font-size: 35px;
+
+}
+
+.Image-Text-Container{
+  width: 100%;
+
+}
+
+.Image-Text-Container img{
+  width:33%;
+  padding: 20px;
+  height:auto;
+  float:left
+
+}
+.Image-Text-Container p{
+}
