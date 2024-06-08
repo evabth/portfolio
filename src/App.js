@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Navbar from './Components/Navbar';
-import icon from './Components/EvanHildPhoto.jpg';
+import icon from './Components/IMG-5056.jpg';
 
 function App() {
   return (
