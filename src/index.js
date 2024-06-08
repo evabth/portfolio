@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Projects from './Pages/Projects';
+import Music from './Pages/Music';
+import Fun from './Pages/Fun';
+import Email from './Pages/Email';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -21,11 +24,15 @@ const router = createBrowserRouter([
   },
   {
     path : '/Music',
-    element: <div>hello</div>
+    element: <Music/>
   },
   {
-    path : '/About',
-    element: <div>about</div>
+    path : '/Fun',
+    element: <Fun/>
+  },
+  {
+    path : '/Email',
+    element : <Email/> 
   },
   
 

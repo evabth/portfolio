@@ -15,7 +15,7 @@ function Navbar () {
             <img className = 'Picture' src ={menu} alt = 'cannot be found' onClick={optionsMenu} onMouseOver={(event) => menuOn(event.target)} onMouseOut={(event) => menuOff(event.target) }/>
             <div className='dropdown-content' id = 'dropdown'>
               <Link to = '/'>Home</Link>
-              <Link to = '/About'>About</Link>
+              <Link to = '/Fun'>Fun</Link>
               <Link to = '/Projects'>Projects</Link>
               <Link to = '/Music'>Music</Link>
             </div>
@@ -26,8 +26,9 @@ function Navbar () {
         </div>
         <div className='Header-item'>
           <button className='email'>
-            <img className='Picture' src ={email} alt= 'email' onMouseOver={(event) => emailOn(event.target)} onMouseOut={(event) => emailOff(event.target)}/>
-            
+            <Link to = '/Email'>
+              <img className='Picture' src ={email} alt= 'email' onMouseOver={(event) => emailOn(event.target)} onMouseOut={(event) => emailOff(event.target)}/>
+            </Link>
           </button>
         </div>
         

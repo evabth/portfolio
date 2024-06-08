@@ -1,0 +1,24 @@
+.inner_fact{
+    background-color: rgb(202, 202, 202);
+    border-radius: 25px;
+    min-height: 200px;
+}
+
+
+.cat_fact{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    color:#575A5E;
+    display: block;
+    font-size: 35px;
+    padding:0px;
+
+    text-align: center;
+  
+}
+
+.button_reload{
+    border-radius: 25px;
+    background-color: rgb(255, 99, 99);
+}
