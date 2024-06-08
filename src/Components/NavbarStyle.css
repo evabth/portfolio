@@ -17,7 +17,7 @@
   }
   .Header-item{
     width:33.33%;
-    color: #D4ADFC;
+    color: #575A5E;
     display:inline-block;
     height: 100%;
     vertical-align: top;
@@ -40,7 +40,7 @@
   .dropdown-content {
     position: absolute;
     display: none;
-    background-color: #D4ADFC;
+    background-color: #A7A2A9;
     min-width: 100px;
     overflow: auto;
 

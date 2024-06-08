@@ -4,7 +4,7 @@ import '../App.css'
 
 
 
-function About(){
+function Email(){
     fetch('https://catfact.ninja/fact').then((res) => res.json())
     .then((data)=>{
         console.log(data)
@@ -13,7 +13,7 @@ function About(){
         
         <div className='Page'>
             <Navbar/>
-            <p>About</p>
+            <p>Email</p>
             
         </div>
         
@@ -23,4 +23,5 @@ function About(){
 
 
 
-export default About;
+
+export default Email;
