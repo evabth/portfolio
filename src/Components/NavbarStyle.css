@@ -14,6 +14,7 @@
     height : 10%;
     width: 100vw;
     align-items: center;
+    background-color: rgb(43, 43, 43);
   }
   .Header-item{
     width:33.33%;
@@ -35,12 +36,14 @@
   .Title{
     text-align: center;
     font-size: 32px;
+    color:white;
   }
   
   .dropdown-content {
     position: absolute;
     display: none;
     background-color: #A7A2A9;
+    color: black;
     min-width: 100px;
     overflow: auto;
 
@@ -54,6 +57,11 @@
     text-decoration: none;
     display: block;
 
+  }
+
+  .name_title{
+    color:inherit;
+    text-decoration: none;
   }
   
   .show {

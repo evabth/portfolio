@@ -52,9 +52,9 @@ function Fun(){
                 
             
 
-            <div class = 'Content'>
-            <a href="https://data.typeracer.com/pit/profile?user=__evab__&ref=badge" target="_top"><img src="https://data.typeracer.com/misc/badge?user=__evab__" border="0" alt="TypeRacer.com scorecard for user Evan"/></a>
-                <p>I like to spend time practicing my typing speed. This is my typeracer. I'll race you any day!</p>
+            <div class = "content_wrapper ">
+                <img class = "typeracer_pic typeracer_item" src="https://data.typeracer.com/misc/badge?user=__evab__" border="0" alt="TypeRacer.com scorecard for user Evan"/>
+                <p class ="typeracer_item">I like to spend time practicing my typing speed. This is my typeracer. I'll race you any day!</p>
                 
             </div>
             
