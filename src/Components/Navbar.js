@@ -22,7 +22,7 @@ function Navbar () {
           </button>
         </div>
         <div className='Header-item Title'>
-          Evan Hild
+          <Link to = '/' className = 'name_title'>Evan Hild</Link>
         </div>
         <div className='Header-item'>
           <button className='email'>

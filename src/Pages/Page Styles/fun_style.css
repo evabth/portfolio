@@ -22,3 +22,29 @@
     border-radius: 25px;
     background-color: rgb(255, 99, 99);
 }
+
+.typeracer_pic{
+    width: 20vw
+    
+}
+
+
+.content_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 25px;
+    width: 90%;
+    margin:auto;
+}
+
+.typeracer_item {
+    margin:auto;
+    background-color: #aaaaaa;
+    padding: 10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 40px;
+    max-width: 40vw;
+}
