@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar';
 import '../App.css'
+import Under_Construction from '../Components/Under_Construction';
 
 
 
@@ -13,7 +14,7 @@ function Music(){
         
         <div className='Page'>
             <Navbar/>
-            <p>Music</p>
+            <Under_Construction/>
             
         </div>
         
