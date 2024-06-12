@@ -41,7 +41,8 @@ function Projects(){
                     <p>This school project involves the development of MicroCaml, a dynamically-typed programming language inspired by OCaml but with a subset of its features. 
                         The project aims to replicate some of the core functionalities of OCaml while introducing dynamic typing. 
                         The implementation includes a lexer, parser, and evaluator to process and execute MicroCaml code. 
-                        Additionally, the project features mutop (μtop or Microtop), a REPL (Read-Eval-Print Loop) environment similar to utop, specifically designed for MicroCaml.
+                        Additionally, the project features mutop (μtop or Microtop), a REPL (Read-Eval-Print Loop) environment similar to utop, specifically designed for MicroCaml. 
+                        This project is written in OCaml and uses regex extensively in the lexer section of the code. 
                         You can check out the project <a href = "https://github.com/evabth/Ocaml-Lexer-Parser-and-Evaluator">here</a>.</p>
                 </div>
             </div>
