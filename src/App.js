@@ -7,7 +7,7 @@ function App() {
     <div className='Page'>
       <Navbar/>
       <div class = 'Content'>
-        <div className='Image-Text-Container'>
+        <div class='Image-Text-Container'>
           <img src="https://i.imgur.com/U313Pn5.jpg" alt ='Image of Evan Hild (Image could not be loaded)' />
           <p>Hello my name is Evan Hild. I am currently studying computer science & economics 
             at the University of Maryland. I am currently in my sophomore year and I plan to graduate 

@@ -1,0 +1,12 @@
+.project_content{
+    background-color: black;
+    color: rgb(197, 197, 197);
+    border-radius: 25px;
+    margin-top:30px
+    
+}
+
+.Content h3{
+    width:20vw;
+    margin:auto;
+}
