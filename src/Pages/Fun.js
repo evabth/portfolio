@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Navbar from '../Components/Navbar';
 import '../App.css'
 import './Page Styles/fun_style.css'
@@ -7,7 +7,7 @@ import './Page Styles/fun_style.css'
 
 function Fun(){
 
-    const catFactRef = useRef(null)
+    const catFactRef = useState(null)
 
     // This query gets a fun fact about cats
     

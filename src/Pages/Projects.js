@@ -7,7 +7,7 @@ function Projects(){
     return (
         <div className='Page'>
             <Navbar/>
-            <div class = 'Content'>
+            <div class = 'project_container'>
                 <h3>Personal Website</h3>
                 <div class ='Image-Text-Container project_content'>
                     <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207"/>
@@ -19,7 +19,7 @@ function Projects(){
                 </div>
                 
             </div>
-            <div class = 'Content'>
+            <div class = 'project_container'>
                 <h3>MNIST Image Classifier</h3>
                 <div class = 'Image-Text-Container project_content'>
                     <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/496px-PyTorch_logo_icon.svg.png?20200318225611" />
@@ -33,8 +33,7 @@ function Projects(){
 
             </div>
 
-            <div class = 'Content'>
-
+            <div class = 'project_container'>
                 <h3>Lexer, Parser, and Evaluator</h3>
                 <div class = 'Image-Text-Container project_content'>
                     <img src = "https://i.imgur.com/UE4k8rK.png" alt = "OCaml Logo"/>
