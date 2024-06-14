@@ -7,7 +7,7 @@ import './Page Styles/fun_style.css'
 
 function Fun(){
 
-    const catFactRef = useState(null)
+    const catFactRef = useState("")
 
     // This query gets a fun fact about cats
     
@@ -44,10 +44,11 @@ function Fun(){
             <Navbar/>
             <div class = 'cat_fact'>
                <p >Here is a fun fact about Cats:</p>
-     
+
                 <p ref = {catFactRef} class = 'inner_fact'></p>
                 <button class = 'button_reload'  onClick={fetchCatFact}>Load Another Fact</button>
             </div>
+            
             
                 
             
