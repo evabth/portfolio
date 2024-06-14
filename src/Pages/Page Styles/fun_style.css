@@ -2,25 +2,27 @@
     background-color: rgb(202, 202, 202);
     border-radius: 25px;
     min-height: 200px;
+    
+
 }
 
 
 .cat_fact{
     width: 90%;
-    margin-left:auto;
-    margin-right:auto;
-    color:#575A5E;
+    margin:auto;
     display: block;
     font-size: 35px;
-    padding:0px;
-
     text-align: center;
-  
+    padding-bottom: 7%;
 }
 
 .button_reload{
     border-radius: 25px;
-    background-color: rgb(255, 99, 99);
+    background-color: rgb(222, 255, 210);
+    margin:auto;
+    width:20%;
+    height:auto;
+    font-size: 20px;
 }
 
 .typeracer_pic{
@@ -42,7 +44,8 @@
 .typeracer_item {
     margin:auto;
     background-color: #aaaaaa;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 25px;
     box-sizing: border-box;
     font-size: 40px;
