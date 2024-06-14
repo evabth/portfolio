@@ -10,7 +10,7 @@ function Projects(){
             <div class = 'project_container'>
                 <h3>Personal Website</h3>
                 <div class ='Image-Text-Container project_content'>
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207"/>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt = "React Logo"/>
                     <p>The site you are currently on is made by me! This project is a dynamic and responsive website built using React. 
                         The website is designed to provide an engaging user experience with smooth navigation and modern UI components.
                         This site was deployed using Render. Render is a cloud platform that aides in the deployment and scaling of web applications.
@@ -22,7 +22,7 @@ function Projects(){
             <div class = 'project_container'>
                 <h3>MNIST Image Classifier</h3>
                 <div class = 'Image-Text-Container project_content'>
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/496px-PyTorch_logo_icon.svg.png?20200318225611" />
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/496px-PyTorch_logo_icon.svg.png?20200318225611" alt ="PyTorch Logo"/>
                     <p>This project involves creating, training, and testing a neural network to accurately classify handwritten digits (0-9) using the MNIST database. 
                         The implementation was done using PyTorch, a popular deep learning library. With PyTorch, I made a neural network capable of classifying digits from 0 to 9 with high accuracy, 
                         leveraging the Modified National Institute of Standards and Technology (MNIST) dataset, which consists of 28x28 grayscale images of handwritten digits. 
