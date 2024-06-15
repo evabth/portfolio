@@ -6,36 +6,25 @@ import Projects from './Pages/Projects';
 import Music from './Pages/Music';
 import Fun from './Pages/Fun';
 import Email from './Pages/Email';
+import HomePage from './Pages/HomePage';
 import reportWebVitals from './reportWebVitals';
+
+
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App/>,
-  },
-  {
-    path: '/Projects',
-    element : <Projects/>,
-  },
-  {
-    path : '/Music',
-    element: <Music/>
-  },
-  {
-    path : '/Fun',
-    element: <Fun/>
-  },
-  {
-    path : '/Email',
-    element : <Email/> 
-  },
-  
 
+const router = createBrowserRouter([
+  { path: '/', element: <HomePage/>,},
+  { path: '/Projects', element: <Projects /> },
+  { path: '/Music', element: <Music /> },
+  { path: '/Fun', element: <Fun /> },
+  { path: '/Email', element: <Email /> },
+    
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
