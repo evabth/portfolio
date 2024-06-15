@@ -159,7 +159,6 @@ function Music(){
     if (accessToken && refreshToken) {
         callApi("GET", TOPARTISTS, null, function(data) {
         // Handle the response data here
-        console.log("Received top items:", data);
         setTopArtistData(data.items);
         });
     }
