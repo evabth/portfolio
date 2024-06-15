@@ -139,7 +139,6 @@ function Music(){
           if (xhr.status === 200) {
             console.log("api call success");
             var data = JSON.parse(xhr.responseText);
-            console.log(data);
             callback(data);
           } else if (xhr.status === 401) {
             refreshAccessToken();
