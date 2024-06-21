@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Projects from './Pages/Projects';
-import Music from './Pages/Music';
+import Music from './Pages/MusicUpdated';
 import Fun from './Pages/Fun';
 import Email from './Pages/Email';
 import HomePage from './Pages/HomePage';
