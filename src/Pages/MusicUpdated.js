@@ -35,8 +35,8 @@ function MusicUpdated (){
                 {
                     topArtistData.map(item => (
                     
-                        <div key={item.id} className="grid-item">
-                            <img src={item.images[0].url} alt={item.name +" the alt is being used"} />
+                        <div className="grid-item">
+                            <img src={item.imageUrl} alt={item.name +" the alt is being used"} />
                             <p>{item.name}</p>
                         </div>
                     
@@ -48,8 +48,8 @@ function MusicUpdated (){
                 {
                     topTrackData.map(item => (
                     
-                        <div key={item.id} className="grid-item">
-                            <img src={item.album.images[0].url} alt={item.name +" the alt is being used"} />
+                        <div className="grid-item">
+                            <img src={item.imageUrl} alt={item.name +" the alt is being used"} />
                             <p>{item.name}</p>
                         </div>
                     
