@@ -6,6 +6,8 @@ import Under_Construction from '../Components/Under_Construction';
 import { useNavigate } from 'react-router-dom';
 
 
+//This page is outdate. It is an implementation of the spotify api on the frontend. This strategy was abandoned because it was only able to show user data of the person currently using the website
+// this was replaced with the MusicUpdated page where it shows spotify data from a server that makes specific requests to the spotify api
 
 
 function Music(){
