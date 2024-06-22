@@ -7,6 +7,17 @@
     border-radius: 25px;
 }
 
+.warning{
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+    border-radius: 25px;
+}
+.warning-error{
+    background-color: rgb(255, 171, 171);
+    text-align: center;
+    border-radius: 25px;
+}
+
 .grid-item {
     display: flex;
     flex-direction: column;

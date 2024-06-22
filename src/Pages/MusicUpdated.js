@@ -7,6 +7,8 @@ import './Page Styles/music_style.css'
 function MusicUpdated (){
     const [topArtistData, setTopArtistData] = useState([])
     const [topTrackData, setTopTrackData] = useState([])
+    const [isHidden, setIsHidden] = useState(false);
+    const [errorOccured,setErrorOccured] = useState(false)
 
 
     useEffect(()=>{
@@ -17,9 +19,12 @@ function MusicUpdated (){
                 console.log("data recieved",musicData)
                 setTopArtistData(musicData.TopArtists)
                 setTopTrackData(musicData.TopTracks)
+                setIsHidden(true)
             })
             .catch((error) => {
                 console.log(error)
+                setIsHidden(true)
+                setErrorOccured(true)
             })
 
     },[])
@@ -30,6 +35,17 @@ function MusicUpdated (){
         <div className='Page'>
             <Navbar/>
             <div className='Content'>
+
+                {!isHidden && <div className='warning'>
+                    <p>To reduce costs, the backend server will spin down with inactivity and may take a minute to boot back up. 
+                        If the page does not have music titles loaded please be patient. Thank you.</p>
+                </div>}
+
+                {errorOccured && <div className='warning-error'>
+                    <p>An error has occured loading music data please reload the page. If that does not work please come again later.</p>
+                
+                </div>}
+                
                 <h1>Top Artists</h1>
                 <div className="grid-container">
                 {
