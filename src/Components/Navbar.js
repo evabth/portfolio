@@ -16,9 +16,9 @@ function Navbar () {
               <img className = 'Picture' src ={menu} alt = 'cannot be found' onClick={optionsMenu} onMouseOver={(event) => menuOn(event.target)} onMouseOut={(event) => menuOff(event.target) }/>
               <div className='dropdown-content' id = 'dropdown'>
                 <Link to = '/'>Home</Link>
-                <Link to = '/Fun'>Fun</Link>
                 <Link to = '/Projects'>Projects</Link>
                 <Link to = '/Music'>Music</Link>
+                <Link to = '/Fun'>Fun</Link>
               </div>
             </button>
           </div>
@@ -35,7 +35,7 @@ function Navbar () {
           
           
         </div>
-        <div class = "spacing"></div>
+        <div className = "spacing"></div>
       </div>
     )
 }

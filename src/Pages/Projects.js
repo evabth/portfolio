@@ -7,9 +7,9 @@ function Projects(){
     return (
         <div className='Page'>
             <Navbar/>
-            <div class = 'project_container'>
+            <div className = 'project_container'>
                 <h3>Personal Website</h3>
-                <div class ='Image-Text-Container project_content'>
+                <div className ='Image-Text-Container project_content'>
                     <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt = "React Logo"/>
                     <p>The site you are currently on is made by me! This project is a dynamic and responsive website built using React. 
                         The website is designed to provide an engaging user experience with smooth navigation and modern UI components.
@@ -20,9 +20,9 @@ function Projects(){
                 
             </div>
 
-            <div class = 'project_container'>
+            <div className = 'project_container'>
                 <h3>Personal Website Backend</h3>
-                <div class ='Image-Text-Container project_content'>
+                <div className ='Image-Text-Container project_content'>
                     <img src = "https://i.imgur.com/8rFrhfJ.png" alt = "Express Logo"/>
                     <p>Visit the Music page on this website to discover the top artists and tracks that I frequently listen to. This engaging user experience is powered 
                         by the Spotify API, which is seamlessly integrated into an Express server. The server fetches and delivers the latest music data whenever a GET request 
@@ -32,9 +32,9 @@ function Projects(){
                 
             </div>
 
-            <div class = 'project_container'>
+            <div className = 'project_container'>
                 <h3>MNIST Image Classifier</h3>
-                <div class = 'Image-Text-Container project_content'>
+                <div className = 'Image-Text-Container project_content'>
                     <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/496px-PyTorch_logo_icon.svg.png?20200318225611" alt ="PyTorch Logo"/>
                     <p>This project involves creating, training, and testing a neural network to accurately classify handwritten digits (0-9) using the MNIST database. 
                         The implementation was done using PyTorch, a popular deep learning library. With PyTorch, I made a neural network capable of classifying digits from 0 to 9 with high accuracy, 
@@ -46,9 +46,9 @@ function Projects(){
 
             </div>
 
-            <div class = 'project_container'>
+            <div className = 'project_container'>
                 <h3>Lexer, Parser, and Evaluator</h3>
-                <div class = 'Image-Text-Container project_content'>
+                <div className = 'Image-Text-Container project_content'>
                     <img src = "https://i.imgur.com/UE4k8rK.png" alt = "OCaml Logo"/>
                     <p>This school project involves the development of MicroCaml, a dynamically-typed programming language inspired by OCaml but with a subset of its features. 
                         The project aims to replicate some of the core functionalities of OCaml while introducing dynamic typing. 

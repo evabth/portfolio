@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar';
 import '../App.css'
-import Under_Construction from '../Components/Under_Construction';
+import UnderConstruction from '../Components/UnderConstruction';
 
 
 
@@ -14,7 +14,7 @@ function Email(){
         
         <div className='Page'>
             <Navbar/>
-            <Under_Construction/>
+            <UnderConstruction/>
             
         </div>
         

@@ -1,18 +1,29 @@
 import '../App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../Components/Navbar';
 
 function HomePage() {
 
+  useEffect(()=>{
+    fetch("https://portfolio-server-6sq5.onrender.com")
+      .then(() => {
+        console.log("server pinged")
+      })
+      .catch(()=>{
+        console.log("server pinged")
+      })
+
+  },[])
+
   return (
-    <div class='Page'>
+    <div className='Page'>
       <Navbar/>
-      <div class = 'Content'>
+      <div className = 'Content'>
         
         <h1 >Welcome!</h1>
         
  
-        <div class='Image-Text-Container'>
+        <div className='Image-Text-Container'>
           <img src="https://i.imgur.com/U313Pn5.jpg" alt ='Evan Hild' />
           <p>Hello my name is Evan Hild. I am currently studying computer science & economics 
             at the University of Maryland. I am currently in my Junior year and I plan to graduate 
