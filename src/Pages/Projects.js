@@ -19,6 +19,19 @@ function Projects(){
                 </div>
                 
             </div>
+
+            <div class = 'project_container'>
+                <h3>Personal Website Backend</h3>
+                <div class ='Image-Text-Container project_content'>
+                    <img src = "https://i.imgur.com/8rFrhfJ.png" alt = "Express Logo"/>
+                    <p>Visit the Music page on this website to discover the top artists and tracks that I frequently listen to. This engaging user experience is powered 
+                        by the Spotify API, which is seamlessly integrated into an Express server. The server fetches and delivers the latest music data whenever a GET request 
+                        is received from the website. To explore the server code and see how it all works, click <a href="https://github.com/evabth/Portfolio_Server">here</a>.
+                    </p>
+                </div>
+                
+            </div>
+
             <div class = 'project_container'>
                 <h3>MNIST Image Classifier</h3>
                 <div class = 'Image-Text-Container project_content'>
